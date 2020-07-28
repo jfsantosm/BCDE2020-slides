@@ -15,7 +15,7 @@ class: center, middle, inverse, title-slide
 # Regional Convergence, Spatial Scale, and Spatial Dependence:
 ## Evidence from Homicides and Personal Injuries in Colombia 2010-2018
 ### Felipe Santos-Marquez <br />Master’s student<br />Graduate School of International Development<br />Nagoya University, JAPAN <br /> <br /> Carlos Mendez <br /> Graduate School of International Development<br />Nagoya University, JAPAN <br />
-### Prepared for the 2020 Bolivian Conference on Development Economics July 27th <br /><br />[ Slides and paper available at: <a href="https://felipe-santos.rbind.io/" class="uri">https://felipe-santos.rbind.io/</a>]
+### Prepared for the 2020 Bolivian Conference on Development Economics July 27th <br /><br />[ Working paper available at: <a href="https://felipe-santos.rbind.io/" class="uri">https://felipe-santos.rbind.io/</a>]
 
 ---
 
@@ -45,7 +45,7 @@ class: center, middle, inverse, title-slide
 
 - Spatial convergence (spatial lag and spatial error models)
 
-- Spatial autocorrelation (Moran's I)
+- Spatial autocorrelation (Moran's I and differential Moran's I)
 
 ---
 
@@ -54,8 +54,6 @@ class: middle
 # Main Results:
 
 1. **Sigma Convergence** for both homicide and personal injury rates at the state level, **Beta Convergence** for both levels and rates.
-
-2. Regional disaggretation  matters: **Local convergence clusters** 
 
 3. **Clustering dynamics** 
 
@@ -106,11 +104,11 @@ class: middle
 
 - Data is agreggated at the municipal  and departmental levels.
 
-- Population census and estimates for states and municipalitites (data from the National Boureau os Statistics).
+- Population census and estimates for states and municipalities (data from the National Bureau of Statistics).
 
 - Raw rates computed `$$raw\space rates = crimes / population$$`
 
-- Non crmime rates  computed　
+- Non crime rates  computed　
    `$$NCR= 10000- raw\ rate * 10000$$`
 - **Survival rates** are chosen because positively defined variables are a **standard** in the convergence literature. 
 ---
@@ -134,15 +132,13 @@ class: center, middle
 
 &lt;img src="figs/betaexpl.png" style="width: 40%" /&gt;
 
-
-
 **Spatial Beta models**
  
 *Spatial lag Model:*　 　　 `\(\log \frac{Y_{i T}}{Y_{i 0}}=\alpha+\beta \cdot \log \left(Y_{i 0}\right)+\rho W \log \frac{Y_{i T}}{Y_{i 0}}+\varepsilon_{t}\)`
 
 *Spatial Error Model:*         　　　　 　   `\(\log \frac{Y_{i T}}{Y_{i 0}}=\alpha+\beta \cdot \log \left(Y_{i 0}\right)+\lambda W \varepsilon_{t}+u_{t}\)`
 
-**Sigma convergence** (the dispersion of the data decreaseses over time)
+**Sigma convergence** (the dispersion of the data decreases over time)
 
 
 ---
@@ -165,7 +161,7 @@ class: middle, center
 ![](figs/beta2.png)
 ]
 
-**Sigma convergece restuls** 
+**Sigma convergence results** 
 
 
 &lt;img src="figs/sigma_table.png" style="width: 40%" /&gt;
@@ -223,11 +219,11 @@ class: middle, center
  &lt;img src="figs/depdyn.png" style="width: 70%" /&gt;
 
 
-Municipality level: 2+? convergence clusters
+Municipal level: 2+? convergence clusters
 
 &lt;img src="figs/mundyn.png" style="width: 70%" /&gt;
 
-## At the municipal level there are fewer clusters but no signs sigma convergence
+## At the municipal level there are fewer clusters but no signs of sigma convergence
 
 ---
 class: middle, center
@@ -239,7 +235,7 @@ class: middle, center
  &lt;img src="figs/depdyn2.png" style="width: 70%" /&gt;
 
 
-Municipality level: 2 convergence clusters and stagnation
+Municipal level: 2 convergence clusters and stagnation
 
 &lt;img src="figs/mundyn2.png" style="width: 70%" /&gt;
 
@@ -260,7 +256,7 @@ class: middle, center
 `$$I = \frac{\sum_i\sum_j w_{ij} y_i.y_j}{\sum_i y_i^2} = \frac{\sum_i (y_i \times \sum_j w_{ij} y_j)}{\sum_i y_i^2}.$$`
 
 ##Differential Moran's I ( `\(y_{i,t}−y_{i,t−1}\)` )
-We computate the Moran's I  for the  variable 
+We compute the Moran's I  for the  variable 
 `\(y_{i,t}−y_{i,t−1}\)`. 
 
 If there is a  fixed effect  `\(\mu_i\)` related to location `\(i\)`, it is possible to present the value at each location for time `\(t\)` as the sum of some intrinsic value and the fixed effect. `\(y_{i,t} = y*_{i,t} + \mu_i\)` 
@@ -271,7 +267,7 @@ class: justify
 
 # (4) Spatial autocorrelation  (Results)
 
-- **State level**: Moran's I statistic is significant, differntial Moran's I is not significant (**not robust**)
+- **State level**: Moran's I statistic is significant, differential Moran's I is not significant (**not robust**)
 
 - **Municipal level**: Standard and Differential Moran's I significant  (**robust**)
 - **Space matters at the Municipal level**
@@ -287,7 +283,7 @@ class: justify
 
 - Vertical and horizontal policy coordination, spillovers and borders.
 
-- Spatial spillovers from neighbours can have **both positive and negative effects** on the convergence path of a region.
+- Spatial spillovers from neighbors can have **both positive and negative effects** on the convergence path of a region.
 
 - It could be more appropriate for the formulation of national development plans to have targets at the state level
  &lt;img src="figs/pol4.png" style="width: 90%" /&gt;
@@ -296,15 +292,15 @@ class: justify
 
 # (5) Concluding Remarks
 
-## Uplifting results  "on average" :
+## Uplifting results "on average" :
 
-- Differences in overall raw rates at the state level **have decreased**. On average less homicides but more personal injuries. 
+- The dispersion of non-crime (crime) rates at the state level **has decreased**. On average less homicides but more personal injuries. 
 
 - **Global convergence on average at the state level**, while fast beta convergence at the municipality level.
 
 ## Beyond classical convergence  :
 
-- Regional differences matter in **both disaggreagation levels**.
+- Regional differences matter in **both disaggregation levels**.
 
 - **Multiple local convergence clubs**; with more clubs at the state level.
 
@@ -312,7 +308,7 @@ class: justify
 
 - Subsequent Differential Moran's I are robust and significant at the **municipality level only**
 
-- Results at the **state level** for NMR are not conlusive and similar to the ones reported by Royuela et al 2015.
+- Results at the **state level** for NMR are not conclusive and similar to the ones reported by Royuela et al 2015.
 
 ---
 
@@ -320,19 +316,19 @@ class: justify
 
 # Implications and further research
 
-- Strong spatial autocorrelation suggest the posibility of applying spatial filters in order to remove the spatial component of crime variables.  
-
 - Convergence clusters help us to find regions with similar outcomes, coordination among them can be promoted.
+
+- Strong spatial autocorrelation suggest the possibility of applying spatial filters in order to remove the spatial component of crime variables.  
 
 - At the state level (including more variables) a probit model may help us to find the determinants for a conditional "jump" to the upper clusters.
 
-
+- As many municipalities have small population, crime rates have high  variance instability. Empirical Bayes methods can be used. 
 ---
 class: center, middle
 
 # Thank you very much for your attention
 
- You can find this presentation on my website https://felipe-santos.rbind.io
+ You can find the working paper on my website https://felipe-santos.rbind.io
 
 If you are interested in our research please check our QuaRCS lab website &lt;br /&gt;
 https://quarcs-lab.rbind.io/
