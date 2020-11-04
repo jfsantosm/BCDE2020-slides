@@ -1,6 +1,6 @@
 # BCDE2020-slides
 
-Slided prepared for the 2020 Bolivian Conference on Development Economics 
+Slides prepared for the 2020 Bolivian Conference on Development Economics 
 
 (Presentation Generated in R)
 
